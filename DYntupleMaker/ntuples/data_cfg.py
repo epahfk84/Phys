@@ -18,8 +18,16 @@ SkipEvent = cms.untracked.vstring('ProductNotFound')
 process.source = cms.Source("PoolSource",
     fileNames = cms.untracked.vstring(
     # replace below link by your input files
-    'file:/scratch/hdyoo/OpenData/samples/copy/Run2011B/1/0004CF8A-6935-E311-A893-003048FE7FD2.root',
-    'file:/scratch/hdyoo/OpenData/samples/copy/Run2011B/1/02CC2303-9635-E311-866C-003048F009B8.root'
+    'file:/scratch/hdyoo/OpenData/samples/copy/Run2011B/15/2414AA91-A835-E311-97FA-003048F02C5E.root',
+    'file:/scratch/hdyoo/OpenData/samples/copy/Run2011B/15/241E1DD0-7435-E311-9F83-003048F1C1A2.root',
+    'file:/scratch/hdyoo/OpenData/samples/copy/Run2011B/15/244F2FEE-0D36-E311-AB4F-C86000151BE8.root',
+    'file:/scratch/hdyoo/OpenData/samples/copy/Run2011B/15/245E7F73-6E37-E311-A33D-003048FEC15C.root',
+    'file:/scratch/hdyoo/OpenData/samples/copy/Run2011B/15/246C457F-6B37-E311-9D26-003048F1C41C.root',
+    'file:/scratch/hdyoo/OpenData/samples/copy/Run2011B/15/2473F2E8-0D36-E311-A3CD-C860001BD8CA.root',
+    'file:/scratch/hdyoo/OpenData/samples/copy/Run2011B/15/2481639A-6D37-E311-9411-003048F0E552.root',
+    'file:/scratch/hdyoo/OpenData/samples/copy/Run2011B/15/248E3612-5935-E311-BBA5-003048F1E1E4.root',
+    'file:/scratch/hdyoo/OpenData/samples/copy/Run2011B/15/249AF3F2-0D36-E311-BA60-003048F24354.root',
+    'file:/scratch/hdyoo/OpenData/samples/copy/Run2011B/15/24AA8D81-6A37-E311-B035-02163E008F58.root',
     )
 )
 
